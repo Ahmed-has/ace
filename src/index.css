@@ -8,46 +8,46 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* ACE Brand Colors - Professional Non-Profit */
+    /* ACE Brand Colors - High-End B2B Consultancy */
     --background: 0 0% 100%;
-    --foreground: 158 25% 15%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 158 25% 15%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 158 25% 15%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Deep Forest Green - Primary Brand */
-    --primary: 158 80% 18%;
+    /* Midnight Navy - Primary Brand (slate-900) */
+    --primary: 222 47% 11%;
     --primary-foreground: 0 0% 100%;
     
-    /* Light mint background for sections */
-    --secondary: 156 30% 97%;
-    --secondary-foreground: 158 25% 15%;
+    /* Light gray background for sections */
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 222 47% 11%;
 
-    /* Ocean Teal - Accent */
-    --accent: 174 72% 56%;
-    --accent-foreground: 158 25% 15%;
+    /* Electric Blue - Accent (blue-600) */
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
 
-    --muted: 156 20% 95%;
-    --muted-foreground: 158 15% 45%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 156 25% 88%;
-    --input: 156 25% 88%;
-    --ring: 158 80% 18%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
 
     --radius: 0.5rem;
     
     /* Custom gradient for hero */
-    --gradient-hero: linear-gradient(135deg, hsl(158, 80%, 18%) 0%, hsl(174, 72%, 56%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(222, 47%, 11%) 0%, hsl(217, 91%, 60%) 100%);
     
     /* Subtle shadow for cards */
-    --shadow-card: 0 2px 8px -2px hsl(158 80% 18% / 0.08);
-    --shadow-card-hover: 0 8px 24px -4px hsl(158 80% 18% / 0.12);
+    --shadow-card: 0 2px 8px -2px hsl(222 47% 11% / 0.08);
+    --shadow-card-hover: 0 8px 24px -4px hsl(222 47% 11% / 0.12);
     
     /* Typography */
     --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -72,42 +72,42 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 158 30% 8%;
+    --background: 222 47% 11%;
     --foreground: 0 0% 98%;
 
-    --card: 158 25% 12%;
+    --card: 222 47% 15%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 158 25% 12%;
+    --popover: 222 47% 15%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 174 72% 56%;
-    --primary-foreground: 158 25% 15%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 158 25% 15%;
+    --secondary: 222 47% 15%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 158 20% 18%;
-    --muted-foreground: 156 15% 65%;
+    --muted: 222 47% 20%;
+    --muted-foreground: 215 16% 65%;
 
-    --accent: 174 72% 56%;
-    --accent-foreground: 158 25% 15%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 158 20% 22%;
-    --input: 158 20% 22%;
-    --ring: 174 72% 56%;
+    --border: 222 47% 25%;
+    --input: 222 47% 25%;
+    --ring: 217 91% 60%;
     
-    --sidebar-background: 158 30% 8%;
+    --sidebar-background: 222 47% 11%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 174 72% 56%;
-    --sidebar-primary-foreground: 158 25% 15%;
-    --sidebar-accent: 158 25% 15%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 47% 15%;
     --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 158 20% 22%;
-    --sidebar-ring: 174 72% 56%;
+    --sidebar-border: 222 47% 25%;
+    --sidebar-ring: 217 91% 60%;
   }
 }
 
